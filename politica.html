@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <title>THPLACE</title>
+  <!-- Required meta tags  -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Biblioteca de ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+
+<body class="pt-5 ">
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-light fundo-azul fixed-top">
+      <a class="navbar-brand ms-2" href="#"><img src="images/logo-projeto.png " width="100"></a>
+      <button class="navbar-toggler d-lg-none tirarhamburguer" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link active" href="#" aria-current="page"><span class="visually-hidden">(current)</span></a>
+          </li>
+          <li class="nav-item m-sm-2">
+
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </nav>
+
+  </header>
+
+
+  <!--   Início off canvas com opções de pesquisa -->
+  <!-- <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header fundo-laranja">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">
+        Ferramenta de pesquisa
+      </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body fundo-azul">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar" />
+        <a name="" id="" class="btn btn fundo-azul-escuro texto-branco" href="resultado-buscas.html"
+          role="button">Pesquisar</a>
+      </form>
+    </div>
+  </div> -->
+
+  <!-- final off canvas -->
+
+  <!-- Início Modal com login -->
+  <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">
+            Iniciar Sessão
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="" class="form-label">Email:</label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
+          </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Senha:</label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Fechar
+          </button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+        <a class="m-2" href="forgot-pass.html">esqueceu a senha?</a>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- Final modal com login -->
+
+  <!-- Início Modal com cadastro -->
+  <!-- <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">
+            Criar Conta
+          </h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="" class="form-label">Email:</label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
+
+          </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Senha:</label>
+
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
+
+          </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Senha(confirmação):</label>
+            <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
+
+          </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Data de Nascimento:</label>
+            <input type="date" class="form-control" name="" id="" aria-describedby="helpId" placeholder="" />
+
+
+
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Fechar
+          </button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+        <div class="input-group mb-3 m-2">
+          <div class="input-group-text">
+            <input class="form-check-input mt-0" type="checkbox" value=""
+              aria-label="Checkbox for following text input">
+            <label class="m-2">Concordo com os <a href="termos-condicoes.html">termos e
+                condições</a></label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div> -->
+
+  <!-- Final modal com cadastro -->
+
+
+  <main class="mt-3 pt-3  ">
+
+    
+  </main>
+
+  <div class="container ">
+    <img src="imagens/termos-img.jpg" alt="" class="img-termos">
+
+
+    <p class="container">
+      <h1><strong>POLITICA DE  PRIVACIDADE</strong></h1>
+
+      </p>
+
+
+
+
+
+    <div class="accordion mb-5 " id="accordionExample">
+      <div class="accordion-item sem-borda">
+        <h2 class="accordion-header ">
+          <button class="accordion-button bg-azul" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            INTRODUÇÃO  A POLITICA DE PRIVACIDADE
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p class="">
+              Esta Política visa descrever a preocupação e a importância que a <strong>THPLACE</strong>
+              tem em respeitar a confidencialidade, legitimidade da informação e a
+              privacidade dos dados pessoais de seus clientes e parceiros assim como orientá-los a
+              conhecer e estar seguros sobre a utilização dos seus dados pessoais e sua respectiva
+              interação com os produtos e serviços oferecidos por esta Instituição.
+              <strong>THPLACE</strong> está em conformidade com as leis, normas e regulamentações vigentes e
+              revisada sempre que necessário afim de assegurar segurança e novas tecnologias que
+              possam refletir mudanças nas operações e práticas de negócio.
+              Esta Política aplica se as atividades dedados pessoais dos clientes existentes, potenciais
+              clientes e visitantes de nossos aplicativos e site.
+
+
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item  sem-borda">
+        <h2 class="accordion-header ">
+          <button class="accordion-button bg-azul texto-branco collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            DEFINIÇÃO
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            DEFINIÇÃO
+            Para facilitar o entendimento, vamos conhecer alguns conceitos:
+            LGPD: É a Lei nº 13.709/2018 – É a Lei que regula a proteção de dados pessoais.
+            Ela estabelece regras para o uso, coleta, armazenamento e compartilhamento de
+            dados dos usuários por empresas públicas e privadas. O principal objetivo é
+            garantir mais segurança, privacidade e transparência no uso de informações
+            pessoais;
+            Tratamento de Dados Pessoais: Conjunto de operações efetuadas sobre Dados
+            pessoais, por meios automatizados ou não automatizados (coleta, registro,
+            organização, estruturação, armazenamento, adaptação alteração, recuperação,
+            consulta, utilização, divulgação), por transmissão ou qualquer outra forma de
+            disponibilização, comparação, interconexão, limitação, remoção e destruição.
+            Dado Pessoal: Qualquer tipo de informação (direta, indireta, sozinha, com outros
+            dados), possa identificar uma pessoa física como: nomes, números identificados,
+            dados de localização, número de contas, mídias pessoais, dados e identificadores
+            eletrônicos de operações;
+            Dado Pessoal Pseudonimizado: É um tipo de dado que sozinho não é capaz de
+            identificar alguém. São dados relativos a grupos de localização, faixa etária,
+            classes sociais, ou seja, sem uma identificação individual.
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item  sem-borda">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-azul texto-branco" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            QUAIS SÃO OS DADOS COLETADOS
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p> <strong>Em razão dos serviços oferecidos pela <strong>THPLACE</strong> e com o devido consentimento,
+                nos
+                casos em que seja necessário, poderemos coletar os seguintes dados:</strong>
+            </p>
+            <p> <strong>Dados cadastrais:</strong> nome, sobrenome, data de nascimento, endereço, gênero,
+              estado civil, profissão, naturalidade, declaração de US Person e PPE, dados
+              bancários, Situação Financeira Patrimonial, e-mail, número de telefone, mídias
+              sociais( neste caso terá acesso apenas as permissões concedidas como: dados
+              referente as suas redes, seguidores, endereço de e-mail , nome, foto de perfil,
+              gênero, idade, idioma, pais, lista de amigos , etc); </p>
+
+
+            <p><strong>Dados de navegação:</strong> São dados coletados enquanto você utiliza os serviços da
+              NECTON ou visita nosso site. Localização derivada do endereço de IP, dados
+              técnicos, geolocalização e localização em tempo real, computadores, telefones e
+              outros dispositivos que utilizam algum tipo de conexão de rede (Wi-Fi, 4g, LTE,
+              VPN);</p>
+
+
+            <p><strong>Dados adicionais:</strong> Dados consentidos pelo próprio cliente, quando houver
+              necessidade, de se assinar alguma Política de Privacidade ou Termo de Uso.
+            </p>
+
+            <strong>COM QUEM A <strong>THPLACE</strong>S COMPARTILHA SEUS DADOS:</strong>
+
+
+            <p>A <strong><strong><strong>THPLACE</strong></strong></strong> é uma empresa que oferece um portfólio
+              diversificado, atuando
+              principalmente em mercados rigorosamente regulados onde os órgãos reguladores
+              definem a maior parte ou determinam que, seja estabelecido quais as regras de
+              funcionamento, enquanto outros, por sua vez, não estão sujeitos à regulação. </p>
+
+
+            <P>Em todos os casos, a <strong>THPLACE</strong> possui parceiros que nos ajudam a prestar os serviços
+              com a excelência e qualidade que nossos clientes esperam.
+            </P>
+
+            <P>Assim, compartilhamos seus dados com algumas entidades, tais como:</P>
+
+            <P>Órgãos públicos e reguladores (CVM, BACEN, SUSEP, Receita Federal, COAF,
+              ANBIMA, entre outros);
+            </P>
+
+
+           <P>Empresas de auditoria externa;</P>
+           <P>  Nossos fornecedores e prestadores de serviços;</P>
+           <P> Parceiros no desenvolvimento de serviços de informações;</P>
+           <P>   Nossos clientes;</P>
+           <P>Autoridades públicas e judiciais para cumprimento de ordens judiciais.</P>
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item   sem-borda">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed bg-azul texto-branco" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            ACEITAÇÃO DOS TERMOS E CONDIÇÕES DE USO
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            A manutenção do Cadastro está condicionada à aceitação e ao cumprimento dos Termos e
+            Condições de Uso. O Usuário, ao realizar o Cadastro automaticamente concorda em se
+            submeter às regras e procedimentos estabelecidos no presente Termo.
+            É de inteira responsabilidade do Usuário a leitura atenta e o esclarecimento de dúvidas
+            referentes ao presente Termo antes de realizar o Cadastro.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <footer class="p-5 mt-5 fundo-rodape text-light ">
+    <!-- roda pé do site mapa dentro do site -->
+    <p>Siga-Me Nas Redes Sociais</p>
+    <a href="https://github.com/Thiagofgoliver"><i class="fa-brands fa-github fa-2x"></i></a>
+    <a href="https://encurtador.com.br/jBU15"> <i class="fa-brands fa-linkedin fa-2x"></i></a>
+
+
+
+
+
+
+
+
+
+    <p>&copy; THIAGO FELIPE - Todos os direitos reservados</p>
+  </footer>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
+  <!-- JS personalizado -->
+  <script src="js/code.js"></script>
+</body>
