@@ -54,7 +54,7 @@
 O thplaces é uma ferramenta muito útil para motoristas que precisam encontrar serviços próximos enquanto estão na estrada. Com uma interface simples e intuitiva, o app oferece uma experiência agradável ao usuário e pode ser utilizado em qualquer dispositivo com acesso à internet.
 <p>
 
-### Front-end:
+### Front-end
 
 <li> HTML 
 <li> CSS
